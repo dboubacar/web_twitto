@@ -1,0 +1,104 @@
+ body {
+
+    margin:0;
+
+    height:100vh;
+
+
+
+
+  }
+header{
+	height:7vh;
+	background-color:#009688;
+
+	box-shadow: 2px 1px 5px #E0E0E0;
+	border-bottom: 3px #009688 solid;
+
+
+}
+#log{
+padding-top:15px;
+margin-left:90%;
+
+width:100px;
+height:20px;
+
+}
+#log a{
+
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ border-bottom:3px #00B4CC solid;
+  
+
+
+}
+#middle{
+
+
+	height:90vh;
+	margin:0;
+
+}
+div#first{
+	width:350px;
+	height:auto;
+	margin:13px auto 0;
+	padding:50px;
+	padding-top:0;
+	background-color:#009688;
+	color:white;
+	border:2px solid #C2D6FF;
+	border-radius:40px 0 40px 0
+}
+
+.titre{
+	text-align:center;
+
+	margin-top:0;
+
+}
+.ouvrir{
+	text-align:center;
+
+
+
+}
+.nom,.prenom,.idlogin,.idpass{
+margin-top:10px;
+font-weight:bold;
+
+}
+input#login,input#pass,input#passconf,input#nom,input#prenom{
+
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:5px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+
+
+}
+
+
+input#submit {
+background-color:#cc7a66;
+border-radius:15px 15px 15px 15px;
+
+	border: 3px #009688 solid;
+margin-top:13px;
+color:#FFF;
+text-shadow:1px 1px 1px #949494;
+padding:15px;
+width:350px;
+font-weight:bold;
+}
+
+

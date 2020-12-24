@@ -1,0 +1,206 @@
+ body {
+
+    margin:0;
+
+    height:100vh;
+
+
+
+  }
+div#first{
+	width:350px;
+	height:auto;
+	margin:50px auto 0;
+	padding:50px;
+	padding-top:0;
+	background-color:#009688;
+	color:white;
+	border:2px solid #C2D6FF;
+	border-radius:40px 0 40px 0
+}
+.titre{
+	text-align:center;
+
+	margin-top:0;
+
+}
+.ouvrir{
+	text-align:center;
+
+
+
+}
+
+input#login{
+
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+
+
+}
+
+input#pass{
+
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+
+}
+input#submit {
+background-color:#cc7a66;
+border-radius:5px;
+border:none;
+color:#FFF;
+text-shadow:1px 1px 1px #949494;
+padding:15px;
+width:150px;
+}
+
+.valid{
+margin-top:30px;
+height:50px;
+
+display:inline-block;
+vertical-align:top;
+margin-bottom:10px;
+
+}
+.links{
+	height:50px;
+	display:inline-block;
+	margin-bottom:10px;
+	margin-top:30px;
+
+	margin-left:20px;
+vertical-align:top;
+
+
+}
+.links #link1,#link2{
+
+	text-align:center;
+	padding:2px;
+}
+
+
+
+
+header
+{
+
+
+    height:0vh;
+    margin:0px;
+   
+
+
+
+}
+
+
+#middle
+{
+    display: flex;
+    flex-wrap: wrap;
+    height:97vh;
+
+}
+.element:nth-child(1)
+{
+    flex: 1;
+
+	background-repeat: no-repeat; /* Le fond ne sera pas répété */
+
+	
+  background-color: #009688;
+
+  
+  
+
+
+}
+#s{
+
+
+ margin: 0;
+    position: relative;
+    top: 44%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+
+}
+
+#s1,#s2,#s3{
+	margin-left:20%;
+	margin-top:6%;
+}
+.s11 img,.s21 img,.s31 img{
+  height:75%;
+  width:75%;
+  padding-right:0px;
+  margin-top:0px;
+
+}
+#s1 .s11,#s2 .s21,#s3 .s31{
+	display:inline-block;
+	vertical-align:top;
+
+}
+
+#s1 .s12,#s2 .s22,#s3 .s32{
+	display:inline-block;
+	font-size:1.2em;
+	color:white;
+	font-weight: bold;
+	vertical-align:top;
+	padding-left:0px;
+	padding-top:0.7%;
+}
+.element:nth-child(2)
+{
+    flex: 1;
+
+}
+
+
+
+footer
+{
+	height:3vh;
+
+	margin-bottom:0px;
+
+
+
+	text-align:center;
+}
+footer a{
+	box-shadow: 4px 4px 4px black;
+font-size:0.7em;
+font-weight:italic;
+color:black;
+opacity:0.5;
+	margin-bottom:0px;
+padding-bottom:0px;
+text-align:center;
+
+
+
+}

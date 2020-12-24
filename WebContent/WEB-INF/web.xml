@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app> 
+	<display-name>TestTomcat</display-name> 
+	<servlet> 
+		<servlet-name>CreateUser</servlet-name> 
+		<servlet-class>servlets.com.CreateUser </servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>CreateUser</servlet-name> 
+		<url-pattern>/CreateUser</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	<servlet> 
+		<servlet-name>LoginUser</servlet-name> 
+		<servlet-class>servlets.com.LoginUser </servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>LoginUser</servlet-name> 
+		<url-pattern>/LoginUser</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	<servlet> 
+		<servlet-name>UserExist</servlet-name> 
+		<servlet-class>servlets.com.UserExist </servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>UserExist</servlet-name> 
+		<url-pattern>/UserExist</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	<servlet> 
+		<servlet-name>LogOut</servlet-name> 
+		<servlet-class>servlets.com.LogOut</servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>LogOut</servlet-name> 
+		<url-pattern>/LogOut</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	<servlet> 
+		<servlet-name>AddComment</servlet-name> 
+		<servlet-class>servlets.com.AddComment</servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>AddComment</servlet-name> 
+		<url-pattern>/AddComment</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	<servlet> 
+		<servlet-name>AddFriend</servlet-name> 
+		<servlet-class>servlets.com.AddFriend </servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>AddFriend</servlet-name> 
+		<url-pattern>/AddFriend</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	
+	<servlet> 
+		<servlet-name>RemoveFriend </servlet-name> 
+		<servlet-class>servlets.com.RemoveFriend </servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>RemoveFriend </servlet-name> 
+		<url-pattern>/RemoveFriend</url-pattern> 
+	</servlet-mapping> 
+	
+	<servlet> 
+		<servlet-name>ListeAbonnement</servlet-name> 
+		<servlet-class>servlets.com.ListeAbonnement</servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>ListeAbonnement</servlet-name> 
+		<url-pattern>/ListeAbonm</url-pattern> 
+	</servlet-mapping> 
+	
+	<servlet> 
+		<servlet-name>ListeAbonnes</servlet-name> 
+		<servlet-class>servlets.com.ListeAbonnes</servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>ListeAbonnes</servlet-name> 
+		<url-pattern>/ListeAbonnes</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	
+	<servlet> 
+		<servlet-name>GetMessages</servlet-name> 
+		<servlet-class>servlets.com.GetMessages</servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>GetMessages</servlet-name> 
+		<url-pattern>/getMessages</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	<servlet> 
+		<servlet-name>DeleteMessage</servlet-name> 
+		<servlet-class>servlets.com.DeleteMessage</servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>DeleteMessage</servlet-name> 
+		<url-pattern>/DeleteMessage</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	<servlet> 
+		<servlet-name>GetStats</servlet-name> 
+		<servlet-class>servlets.com.GetStats</servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>GetStats</servlet-name> 
+		<url-pattern>/GetStats</url-pattern> 
+	</servlet-mapping> 
+	
+	<servlet> 
+		<servlet-name>GetFollows</servlet-name> 
+		<servlet-class>servlets.com.GetFollows</servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>GetFollows</servlet-name> 
+		<url-pattern>/GetFollows</url-pattern> 
+	</servlet-mapping> 
+	
+	<servlet> 
+		<servlet-name>GetFollowers</servlet-name> 
+		<servlet-class>servlets.com.GetFollowers</servlet-class> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>GetFollowers</servlet-name> 
+		<url-pattern>/GetFollowers</url-pattern> 
+	</servlet-mapping> 
+	
+	
+	
+</web-app>
